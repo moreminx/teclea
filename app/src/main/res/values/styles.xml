@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryDark">#190707</item>
+        <item name="colorAccent">#FF0000</item>
+
+        <item name="android:colorButtonNormal">@drawable/button_selector</item>
+        <item name="colorButtonNormal">@drawable/button_selector</item>
+        <item name="android:buttonStyle">@style/FriendlyButtonStyle</item>
+    </style>
+
+    <style name="FriendlyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorTitle</item>
+
+    </style>
+</resources>
